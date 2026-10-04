@@ -1,0 +1,22 @@
+{
+  "name": "foodpack-ai",
+  "version": "1.0.0",
+  "description": "AI-Based Intelligent Food Packaging Material Recommendation System (MoFPI)",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "dev": "node server/src/index.js",
+    "build": "npm run build --workspace=client",
+    "start": "NODE_ENV=production node server/src/index.js",
+    "seed": "node server/src/seed/seedData.js"
+  },
+  "dependencies": {
+    "next": "^14.2.24",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^3.10.1"
+  }
+}

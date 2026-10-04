@@ -1,0 +1,8 @@
+{
+  "name": "FoodPack AI - Food Packaging Recommendation System",
+  "description": "AI-based intelligent food packaging material recommendation system developed for the Ministry of Food Processing Industries (MoFPI). Evaluates barrier kinetics, shelf life, and sustainability.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
